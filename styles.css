@@ -125,12 +125,13 @@ em { font-family: var(--serif); font-weight: 600; letter-spacing: -.06em; }
 .visitor-heading h2 { margin: 0; font-size: clamp(30px, 4vw, 48px); line-height: 1.15; letter-spacing: -.055em; font-weight: 600; }
 .visitor-heading p { margin: 0; max-width: 330px; color: var(--muted); font-size: 14px; }
 .visitor-map-card { margin: 0; padding: clamp(16px, 3vw, 32px); border: 1px solid var(--hairline); border-radius: 12px; background: var(--surface); }
-.visitor-map { display: grid; place-items: center; width: 100%; max-width: 800px; min-height: clamp(180px, 42vw, 400px); margin: 0 auto; overflow: hidden; border-radius: 6px; background: #10182b; color: #eef3f7; }
+.visitor-map { display: grid; place-items: center; width: 100%; max-width: 800px; min-height: clamp(180px, 42vw, 400px); margin: 0 auto; overflow: hidden; border-radius: 6px; background: #ffffff; color: #10182b; }
+.visitor-map-link { display: block; width: 100%; }
 .visitor-map > :not(script) { min-width: 0; max-width: 100%; }
 .visitor-map a, .visitor-map div { max-width: 100%; }
 .visitor-map img, .visitor-map iframe, .visitor-map canvas { display: block; max-width: 100%; border: 0; }
 .visitor-map img, .visitor-map canvas { height: auto; }
 .visitor-map-fallback { max-width: 360px; margin: 0; padding: 24px; text-align: center; font-size: 14px; }
-.visitor-map-fallback[hidden] { display: none; }
+.visitor-map [hidden] { display: none; }
 .visitor-map-card figcaption { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px 20px; margin-top: 16px; color: var(--muted); font-size: 12px; }
 .visitor-map-card figcaption a:hover { color: var(--cobalt); }
